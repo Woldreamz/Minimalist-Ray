@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" type="image/png" href="https://i.postimg.cc/xjwDWjgB/woldreamz-inc-favicon-black.png" />
       <body className={inter.className}>{children}</body>
     </html>
   );
